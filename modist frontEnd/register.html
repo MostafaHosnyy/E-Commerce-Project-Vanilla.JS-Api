@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleRegister.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <section id="header">
+        <ul class="brandName">
+           <li>MODIST</li>
+         </ul>
+        <div>
+          <ul id="navbar">
+            <li>
+              <a class="active" href="index.html">Home</a>
+            </li>
+         </ul>
+      </section>
+    <div class="container">
+        <main>
+            <form class="register-form" action="">
+                <p class="main-h1 side-p">LE-MODIST</p>
+                <h1 class="main-h1">Register</h1>
+
+                <div class="form-field">
+                    <input type="text" placeholder="Name" minlength="3" maxlength="15">
+                    <i class="fa-solid fa-signature"></i>
+                </div>
+
+                <div class="form-field">
+                    <input type="email" placeholder="E-mail" maxlength="18">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="form-field">
+                    <input type="password" placeholder="Please Enter Password" minlength="8" maxlength="25">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <div class="form-field">
+                    <input type="password" placeholder="Re-type Password" minlength="8" maxlength="25">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="form-field">
+                    <a class="link-tag" href="http://127.0.0.1:5500/index.html">Already have An Account</a>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Register</button>
+                </div>
+
+                <div class="loginMeth">
+                    <p class="login-methods">Use Another Social Profile Methods</p>
+                <div class="icons-login">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+                </div>
+
+                <div class="Check-field">
+                    <input type="checkbox" required> I Agree to Terms and Conditions
+                </div>
+                <div class="Check-field">
+                    <input type="checkbox" required> Stay in the loop with the latest trends and exclusive offers! Subscribe to our newsletter and unlock a world of style, delivered straight to your inbox.
+                </div>
+            </form>
+        </main>
+
+    </div>
+    <script src="js/singUp.js"></script>
+</body>
+</html>
